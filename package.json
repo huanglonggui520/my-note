@@ -1,0 +1,26 @@
+{
+  "name": "my-note",
+  "version": "1.0.0",
+  "description": "前端笔记",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs --temp .temp",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huanglonggui520/my-note.git"
+  },
+  "keywords": [
+    "hlg022032"
+  ],
+  "author": "黄龙归",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huanglonggui520/my-note/issues"
+  },
+  "homepage": "https://github.com/huanglonggui520/my-note#readme",
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  }
+}

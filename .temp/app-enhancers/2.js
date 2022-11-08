@@ -1,0 +1,1 @@
+export { default } from "D:\\My-Note\\my-note\\node_modules\\vuepress-plugin-smooth-scroll\\lib\\enhanceApp.js"
