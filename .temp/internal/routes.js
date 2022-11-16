@@ -9,16 +9,16 @@ import GlobalLayout from "D:\\My-Note\\my-note\\node_modules\\@vuepress\\core\\l
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-1df60676",
-    path: "/Vue/",
+    name: "v-bbd15e92",
+    path: "/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-1df60676").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-bbd15e92").then(next)
     },
   },
   {
-    path: "/Vue/index.html",
-    redirect: "/Vue/"
+    path: "/index.html",
+    redirect: "/"
   },
   {
     name: "v-353cd0ba",
@@ -33,24 +33,12 @@ export const routes = [
     redirect: "/home/"
   },
   {
-    name: "v-05358b52",
-    path: "/Vue/bus.html",
+    name: "v-7698a697",
+    path: "/interview/interview.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-05358b52").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-7698a697").then(next)
     },
-  },
-  {
-    name: "v-bbd15e92",
-    path: "/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-bbd15e92").then(next)
-    },
-  },
-  {
-    path: "/index.html",
-    redirect: "/"
   },
   {
     name: "v-ddf8107a",
@@ -61,19 +49,19 @@ export const routes = [
     },
   },
   {
-    name: "v-7698a697",
-    path: "/interview/interview.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7698a697").then(next)
-    },
-  },
-  {
     name: "v-4c02a537",
     path: "/interview/interviewJs.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-4c02a537").then(next)
+    },
+  },
+  {
+    name: "v-2cc9ea91",
+    path: "/javascript/javascript.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-2cc9ea91").then(next)
     },
   },
   {

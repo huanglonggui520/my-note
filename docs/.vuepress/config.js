@@ -1,12 +1,12 @@
 module.exports = {
-  title:'前端笔记',
+  title:'前端笔记总结',
   description:'收录一些前端笔记',
   head: [
     ['meta', { "name": 'keywords', content: '前端笔记,vue笔记,javascript,javascript笔记,git,前端面试题，' }],
     ['meta', { "name": 'author', content: '贵州师范大学.黄龙归' }]
   ],
   themeConfig: {
-    smoothScroll: true,
+      smoothScroll: true,
   
       sidebarDepth:2,
       sidebar: {
@@ -19,6 +19,9 @@ module.exports = {
           
           
         ],
+        '/javascript/':[
+          'javascript'
+        ]
       },
       nav: [
         { text: '首页', link: '/' },
@@ -26,7 +29,7 @@ module.exports = {
           { text: '基础3套', items:[
             { text: 'HTML', link: '/language/chinese/' },
             { text: 'CSS', link: '/language/japanese/' },
-            { text:'JavaScript',link: '/language/japanese/'}
+            { text:'JavaScript',link: '/javascript/javascript/'}
           ] },
           { text: '前端进阶', items:[
             { text: 'Vue', link: '/Vue/' },
