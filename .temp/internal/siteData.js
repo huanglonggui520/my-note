@@ -27,9 +27,9 @@ export const siteData = {
       "frontmatter": {
         "home": true,
         "heroText": "前端学习笔记",
-        "tagline": "收录前端主流技术学习笔记的网站",
+        "tagline": "记录前端主流技术学习笔记的网站",
         "actionText": "开始学习 →",
-        "actionLink": "/zh/guide/",
+        "actionLink": "/javascript/javascript.md",
         "features": [
           {
             "title": "快速导航",
@@ -52,220 +52,357 @@ export const siteData = {
       "path": "/"
     },
     {
-      "title": "前端笔记",
-      "frontmatter": {
-        "sidebar": "auto",
-        "title": "前端笔记"
-      },
-      "regularPath": "/home/",
-      "relativePath": "home/README.md",
-      "key": "v-353cd0ba",
-      "path": "/home/",
+      "title": "JavaScript面试题",
+      "frontmatter": {},
+      "regularPath": "/interview/interviewJs.html",
+      "relativePath": "interview/interviewJs.md",
+      "key": "v-4c02a537",
+      "path": "/interview/interviewJs.html",
       "headers": [
         {
           "level": 2,
-          "title": "脚手架文件结构",
-          "slug": "脚手架文件结构-2"
+          "title": "01-介绍JavaScript的基本数据类型",
+          "slug": "_01-介绍javascript的基本数据类型"
         },
         {
           "level": 2,
-          "title": "关于不同版本的Vue",
-          "slug": "关于不同版本的vue"
+          "title": "02-说说写JavaScript的基本规范",
+          "slug": "_02-说说写javascript的基本规范"
         },
         {
           "level": 2,
-          "title": "vue.config.js配置文件",
-          "slug": "vue-config-js配置文件"
+          "title": "03-Ajax使用",
+          "slug": "_03-ajax使用"
         },
         {
           "level": 2,
-          "title": "ref属性",
-          "slug": "ref属性"
+          "title": "04-栈和堆的区别",
+          "slug": "_04-栈和堆的区别"
         },
         {
           "level": 2,
-          "title": "props配置项",
-          "slug": "props配置项"
+          "title": "05-谈谈this的理解",
+          "slug": "_05-谈谈this的理解"
         },
         {
           "level": 2,
-          "title": "mixin(混入)",
-          "slug": "mixin-混入"
+          "title": "06-eval是做什么的",
+          "slug": "_06-eval是做什么的"
         },
         {
           "level": 2,
-          "title": "插件",
-          "slug": "插件"
+          "title": "07-什么是window对象? 什么是document对象",
+          "slug": "_07-什么是window对象-什么是document对象"
         },
         {
           "level": 2,
-          "title": "scoped样式",
-          "slug": "scoped样式"
+          "title": "08-null，undefined的区别",
+          "slug": "_08-null-undefined的区别"
         },
         {
           "level": 2,
-          "title": "总结TodoList案例",
-          "slug": "总结todolist案例"
+          "title": "09-什么是闭包（closure），为什么要用它",
+          "slug": "_09-什么是闭包-closure-为什么要用它"
         },
         {
           "level": 2,
-          "title": "webStorage",
-          "slug": "webstorage"
+          "title": "10-new操作符具体干了什么呢",
+          "slug": "_10-new操作符具体干了什么呢"
         },
         {
           "level": 2,
-          "title": "组件的自定义事件",
-          "slug": "组件的自定义事件"
+          "title": "11-介绍防抖节流原理、区别以及应用，并用JavaScript进行实现",
+          "slug": "_11-介绍防抖节流原理、区别以及应用-并用javascript进行实现"
+        }
+      ]
+    },
+    {
+      "title": "CSS面试题",
+      "frontmatter": {},
+      "regularPath": "/interview/interviewCss.html",
+      "relativePath": "interview/interviewCss.md",
+      "key": "v-ddf8107a",
+      "path": "/interview/interviewCss.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "01-CSS全称是什么",
+          "slug": "_01-css全称是什么"
         },
         {
           "level": 2,
-          "title": "全局事件总线（GlobalEventBus）",
-          "slug": "全局事件总线-globaleventbus"
+          "title": "02-为什么需要CSS",
+          "slug": "_02-为什么需要css"
         },
         {
           "level": 2,
-          "title": "消息订阅与发布（pubsub）",
-          "slug": "消息订阅与发布-pubsub"
+          "title": "03-CSS的主要版本有哪些",
+          "slug": "_03-css的主要版本有哪些"
         },
         {
           "level": 2,
-          "title": "nextTick",
-          "slug": "nexttick"
+          "title": "04-什么是层叠",
+          "slug": "_04-什么是层叠"
         },
         {
           "level": 2,
-          "title": "Vue封装的过度与动画",
-          "slug": "vue封装的过度与动画"
+          "title": "05-使用CSS的优势",
+          "slug": "_05-使用css的优势"
         },
         {
           "level": 2,
-          "title": "vue脚手架配置代理",
-          "slug": "vue脚手架配置代理"
-        },
-        {
-          "level": 3,
-          "title": "方法一",
-          "slug": "方法一"
-        },
-        {
-          "level": 3,
-          "title": "方法二",
-          "slug": "方法二"
+          "title": "06-使用CSS的缺点",
+          "slug": "_06-使用css的缺点"
         },
         {
           "level": 2,
-          "title": "插槽",
-          "slug": "插槽"
+          "title": "07-列举一些CSS框架",
+          "slug": "_07-列举一些css框架"
         },
         {
           "level": 2,
-          "title": "Vuex",
-          "slug": "vuex"
-        },
-        {
-          "level": 3,
-          "title": "1.概念",
-          "slug": "_1-概念"
-        },
-        {
-          "level": 3,
-          "title": "2.何时使用？",
-          "slug": "_2-何时使用"
-        },
-        {
-          "level": 3,
-          "title": "3.搭建vuex环境",
-          "slug": "_3-搭建vuex环境"
-        },
-        {
-          "level": 3,
-          "title": "4.基本使用",
-          "slug": "_4-基本使用"
-        },
-        {
-          "level": 3,
-          "title": "5.getters的使用",
-          "slug": "_5-getters的使用"
-        },
-        {
-          "level": 3,
-          "title": "6.四个map方法的使用",
-          "slug": "_6-四个map方法的使用"
-        },
-        {
-          "level": 3,
-          "title": "7.模块化+命名空间",
-          "slug": "_7-模块化-命名空间"
+          "title": "08-CSS中使用id和Class的区别",
+          "slug": "_08-css中使用id和class的区别"
         },
         {
           "level": 2,
-          "title": "路由",
-          "slug": "路由"
+          "title": "09-什么是RGB",
+          "slug": "_09-什么是rgb"
         },
         {
-          "level": 3,
-          "title": "1.基本使用",
-          "slug": "_1-基本使用"
+          "level": 2,
+          "title": "10-在CSS中为元素分配某种颜色的方法有哪些",
+          "slug": "_10-在css中为元素分配某种颜色的方法有哪些"
         },
         {
-          "level": 3,
-          "title": "2.几个注意点",
-          "slug": "_2-几个注意点"
+          "level": 2,
+          "title": "11-CSS盒模型",
+          "slug": "_11-css盒模型"
         },
         {
-          "level": 3,
-          "title": "3.多级路由（多级路由）",
-          "slug": "_3-多级路由-多级路由"
+          "level": 2,
+          "title": "12-什么是z-index",
+          "slug": "_12-什么是z-index"
         },
         {
-          "level": 3,
-          "title": "4.路由的query参数",
-          "slug": "_4-路由的query参数"
+          "level": 2,
+          "title": "13-什么是CSS Sprite（“精灵图”）",
+          "slug": "_13-什么是css-sprite-精灵图"
         },
         {
-          "level": 3,
-          "title": "5.命名路由",
-          "slug": "_5-命名路由"
+          "level": 2,
+          "title": "14-使用CSS Sprites的好处",
+          "slug": "_14-使用css-sprites的好处"
         },
         {
-          "level": 3,
-          "title": "6.路由的params参数",
-          "slug": "_6-路由的params参数"
+          "level": 2,
+          "title": "15-CSS中的伪元素是什么",
+          "slug": "_15-css中的伪元素是什么"
         },
         {
-          "level": 3,
-          "title": "7.路由的props配置",
-          "slug": "_7-路由的props配置"
+          "level": 2,
+          "title": "16-如何设置h2和h3标签的相同样式",
+          "slug": "_16-如何设置h2和h3标签的相同样式"
         },
         {
-          "level": 3,
-          "title": "8.`<router-link>`的replace属性",
-          "slug": "_8-router-link-的replace属性"
+          "level": 2,
+          "title": "17-CSS中的float属性如何使用",
+          "slug": "_17-css中的float属性如何使用"
         },
         {
-          "level": 3,
-          "title": "9.编程式路由导航",
-          "slug": "_9-编程式路由导航"
+          "level": 2,
+          "title": "18-当前版本的CSS中使用了哪些不同的模块",
+          "slug": "_18-当前版本的css中使用了哪些不同的模块"
         },
         {
-          "level": 3,
-          "title": "10.缓存路由组件",
-          "slug": "_10-缓存路由组件"
+          "level": 2,
+          "title": "19-CSS允许使用哪些不同的媒介类型",
+          "slug": "_19-css允许使用哪些不同的媒介类型"
         },
         {
-          "level": 3,
-          "title": "11.两个新的生命周期钩子",
-          "slug": "_11-两个新的生命周期钩子"
+          "level": 2,
+          "title": "20-CSS有哪些单位",
+          "slug": "_20-css有哪些单位"
         },
         {
-          "level": 3,
-          "title": "12.路由守卫",
-          "slug": "_12-路由守卫"
+          "level": 2,
+          "title": "21-如何控制插入的图片不重复",
+          "slug": "_21-如何控制插入的图片不重复"
         },
         {
-          "level": 3,
-          "title": "13.路由器的两种工作模式",
-          "slug": "_13-路由器的两种工作模式"
+          "level": 2,
+          "title": "22-下面这段代码将对元素做些什么",
+          "slug": "_22-下面这段代码将对元素做些什么"
+        },
+        {
+          "level": 2,
+          "title": "23-overflow属性在CSS中被用于什么",
+          "slug": "_23-overflow属性在css中被用于什么"
+        },
+        {
+          "level": 2,
+          "title": "24-用于控制图像滚动的属性是什么",
+          "slug": "_24-用于控制图像滚动的属性是什么"
+        },
+        {
+          "level": 2,
+          "title": "25-什么是响应式网页设计",
+          "slug": "_25-什么是响应式网页设计"
+        },
+        {
+          "level": 2,
+          "title": "26-`{visibility：hidden}和{display：none}`有什么区别",
+          "slug": "_26-visibility-hidden-和-display-none-有什么区别"
+        },
+        {
+          "level": 2,
+          "title": "26-CSS的特异性是什么意思",
+          "slug": "_26-css的特异性是什么意思"
+        },
+        {
+          "level": 2,
+          "title": "27-CSS中字体相关的属性有哪些",
+          "slug": "_27-css中字体相关的属性有哪些"
+        },
+        {
+          "level": 2,
+          "title": "28-如何在CSS中使用box-shadow",
+          "slug": "_28-如何在css中使用box-shadow"
+        },
+        {
+          "level": 2,
+          "title": "29-什么是弹性布局",
+          "slug": "_29-什么是弹性布局"
+        },
+        {
+          "level": 2,
+          "title": "30-浏览器如何确定哪些元素与CSS选择器匹配",
+          "slug": "_30-浏览器如何确定哪些元素与css选择器匹配"
+        },
+        {
+          "level": 2,
+          "title": "31-解释为什么选择有时候使用translate（）而不是绝对定位",
+          "slug": "_31-解释为什么选择有时候使用translate-而不是绝对定位"
+        },
+        {
+          "level": 2,
+          "title": "32-解释通过移动优先策略和自适应设计两种方法的差异",
+          "slug": "_32-解释通过移动优先策略和自适应设计两种方法的差异"
+        },
+        {
+          "level": 2,
+          "title": "33-CSS如何实现元素的定位",
+          "slug": "_33-css如何实现元素的定位"
+        },
+        {
+          "level": 2,
+          "title": "34-什么是块级格式化上下文（BFC），如何工作",
+          "slug": "_34-什么是块级格式化上下文-bfc-如何工作"
+        },
+        {
+          "level": 2,
+          "title": "35-这段CSS代码会产生什么影响？{box-sizing：border-box;}",
+          "slug": "_35-这段css代码会产生什么影响-box-sizing-border-box"
+        },
+        {
+          "level": 2,
+          "title": "36-什么是CSS预处理器？何时建议在项目中使用预处理器",
+          "slug": "_36-什么是css预处理器-何时建议在项目中使用预处理器"
+        },
+        {
+          "level": 2,
+          "title": "37-相对，固定，绝对和静态定位的元素有什么区别",
+          "slug": "_37-相对-固定-绝对和静态定位的元素有什么区别"
+        },
+        {
+          "level": 2,
+          "title": "38-什么是供应商前缀",
+          "slug": "_38-什么是供应商前缀"
+        },
+        {
+          "level": 2,
+          "title": "39-什么是文件分割，何时使用",
+          "slug": "_39-什么是文件分割-何时使用"
+        },
+        {
+          "level": 2,
+          "title": "40-CSS在后台如何运行",
+          "slug": "_40-css在后台如何运行"
+        },
+        {
+          "level": 2,
+          "title": "41-box-sizing属性?",
+          "slug": "_41-box-sizing属性"
+        },
+        {
+          "level": 2,
+          "title": "42-CSS选择器有哪些？哪些属性可以继承",
+          "slug": "_42-css选择器有哪些-哪些属性可以继承"
+        },
+        {
+          "level": 2,
+          "title": "43-用纯CSS创建一个三角形的原理是什么",
+          "slug": "_43-用纯css创建一个三角形的原理是什么"
+        },
+        {
+          "level": 2,
+          "title": "44-为什么要初始化CSS样式",
+          "slug": "_44-为什么要初始化css样式"
+        },
+        {
+          "level": 2,
+          "title": "45-为什么会出现浮动和什么时候需要清除浮动？清除浮动的方式",
+          "slug": "_45-为什么会出现浮动和什么时候需要清除浮动-清除浮动的方式"
+        },
+        {
+          "level": 2,
+          "title": "46-上下margin重合的问题",
+          "slug": "_46-上下margin重合的问题"
+        },
+        {
+          "level": 2,
+          "title": "47-设置元素浮动后，该元素的display值是多少",
+          "slug": "_47-设置元素浮动后-该元素的display值是多少"
+        },
+        {
+          "level": 2,
+          "title": "48- 移动端的布局用过媒体查询吗",
+          "slug": "_48-移动端的布局用过媒体查询吗"
+        },
+        {
+          "level": 2,
+          "title": "49-在网页中的应该使用奇数还是偶数的字体？为什么呢",
+          "slug": "_49-在网页中的应该使用奇数还是偶数的字体-为什么呢"
+        },
+        {
+          "level": 2,
+          "title": "50-margin和padding分别适合什么场景使用",
+          "slug": "_50-margin和padding分别适合什么场景使用"
+        },
+        {
+          "level": 2,
+          "title": "51-全屏滚动的原理是什么？用到了CSS的哪些属性",
+          "slug": "_51-全屏滚动的原理是什么-用到了css的哪些属性"
+        },
+        {
+          "level": 2,
+          "title": "52-你对line-height是如何理解的",
+          "slug": "_52-你对line-height是如何理解的"
+        },
+        {
+          "level": 2,
+          "title": "53-怎么让Chrome支持小于12px 的文字",
+          "slug": "_53-怎么让chrome支持小于12px-的文字"
+        },
+        {
+          "level": 2,
+          "title": "54-css3的相关动画属性",
+          "slug": "_54-css3的相关动画属性"
+        },
+        {
+          "level": 2,
+          "title": "55-css文件有几种引入方式",
+          "slug": "_55-css文件有几种引入方式"
         }
       ]
     },
@@ -565,361 +702,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "CSS面试题",
-      "frontmatter": {},
-      "regularPath": "/interview/interviewCss.html",
-      "relativePath": "interview/interviewCss.md",
-      "key": "v-ddf8107a",
-      "path": "/interview/interviewCss.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "01-CSS全称是什么",
-          "slug": "_01-css全称是什么"
-        },
-        {
-          "level": 2,
-          "title": "02-为什么需要CSS",
-          "slug": "_02-为什么需要css"
-        },
-        {
-          "level": 2,
-          "title": "03-CSS的主要版本有哪些",
-          "slug": "_03-css的主要版本有哪些"
-        },
-        {
-          "level": 2,
-          "title": "04-什么是层叠",
-          "slug": "_04-什么是层叠"
-        },
-        {
-          "level": 2,
-          "title": "05-使用CSS的优势",
-          "slug": "_05-使用css的优势"
-        },
-        {
-          "level": 2,
-          "title": "06-使用CSS的缺点",
-          "slug": "_06-使用css的缺点"
-        },
-        {
-          "level": 2,
-          "title": "07-列举一些CSS框架",
-          "slug": "_07-列举一些css框架"
-        },
-        {
-          "level": 2,
-          "title": "08-CSS中使用id和Class的区别",
-          "slug": "_08-css中使用id和class的区别"
-        },
-        {
-          "level": 2,
-          "title": "09-什么是RGB",
-          "slug": "_09-什么是rgb"
-        },
-        {
-          "level": 2,
-          "title": "10-在CSS中为元素分配某种颜色的方法有哪些",
-          "slug": "_10-在css中为元素分配某种颜色的方法有哪些"
-        },
-        {
-          "level": 2,
-          "title": "11-CSS盒模型",
-          "slug": "_11-css盒模型"
-        },
-        {
-          "level": 2,
-          "title": "12-什么是z-index",
-          "slug": "_12-什么是z-index"
-        },
-        {
-          "level": 2,
-          "title": "13-什么是CSS Sprite（“精灵图”）",
-          "slug": "_13-什么是css-sprite-精灵图"
-        },
-        {
-          "level": 2,
-          "title": "14-使用CSS Sprites的好处",
-          "slug": "_14-使用css-sprites的好处"
-        },
-        {
-          "level": 2,
-          "title": "15-CSS中的伪元素是什么",
-          "slug": "_15-css中的伪元素是什么"
-        },
-        {
-          "level": 2,
-          "title": "16-如何设置h2和h3标签的相同样式",
-          "slug": "_16-如何设置h2和h3标签的相同样式"
-        },
-        {
-          "level": 2,
-          "title": "17-CSS中的float属性如何使用",
-          "slug": "_17-css中的float属性如何使用"
-        },
-        {
-          "level": 2,
-          "title": "18-当前版本的CSS中使用了哪些不同的模块",
-          "slug": "_18-当前版本的css中使用了哪些不同的模块"
-        },
-        {
-          "level": 2,
-          "title": "19-CSS允许使用哪些不同的媒介类型",
-          "slug": "_19-css允许使用哪些不同的媒介类型"
-        },
-        {
-          "level": 2,
-          "title": "20-CSS有哪些单位",
-          "slug": "_20-css有哪些单位"
-        },
-        {
-          "level": 2,
-          "title": "21-如何控制插入的图片不重复",
-          "slug": "_21-如何控制插入的图片不重复"
-        },
-        {
-          "level": 2,
-          "title": "22-下面这段代码将对元素做些什么",
-          "slug": "_22-下面这段代码将对元素做些什么"
-        },
-        {
-          "level": 2,
-          "title": "23-overflow属性在CSS中被用于什么",
-          "slug": "_23-overflow属性在css中被用于什么"
-        },
-        {
-          "level": 2,
-          "title": "24-用于控制图像滚动的属性是什么",
-          "slug": "_24-用于控制图像滚动的属性是什么"
-        },
-        {
-          "level": 2,
-          "title": "25-什么是响应式网页设计",
-          "slug": "_25-什么是响应式网页设计"
-        },
-        {
-          "level": 2,
-          "title": "26-`{visibility：hidden}和{display：none}`有什么区别",
-          "slug": "_26-visibility-hidden-和-display-none-有什么区别"
-        },
-        {
-          "level": 2,
-          "title": "26-CSS的特异性是什么意思",
-          "slug": "_26-css的特异性是什么意思"
-        },
-        {
-          "level": 2,
-          "title": "27-CSS中字体相关的属性有哪些",
-          "slug": "_27-css中字体相关的属性有哪些"
-        },
-        {
-          "level": 2,
-          "title": "28-如何在CSS中使用box-shadow",
-          "slug": "_28-如何在css中使用box-shadow"
-        },
-        {
-          "level": 2,
-          "title": "29-什么是弹性布局",
-          "slug": "_29-什么是弹性布局"
-        },
-        {
-          "level": 2,
-          "title": "30-浏览器如何确定哪些元素与CSS选择器匹配",
-          "slug": "_30-浏览器如何确定哪些元素与css选择器匹配"
-        },
-        {
-          "level": 2,
-          "title": "31-解释为什么选择有时候使用translate（）而不是绝对定位",
-          "slug": "_31-解释为什么选择有时候使用translate-而不是绝对定位"
-        },
-        {
-          "level": 2,
-          "title": "32-解释通过移动优先策略和自适应设计两种方法的差异",
-          "slug": "_32-解释通过移动优先策略和自适应设计两种方法的差异"
-        },
-        {
-          "level": 2,
-          "title": "33-CSS如何实现元素的定位",
-          "slug": "_33-css如何实现元素的定位"
-        },
-        {
-          "level": 2,
-          "title": "34-什么是块级格式化上下文（BFC），如何工作",
-          "slug": "_34-什么是块级格式化上下文-bfc-如何工作"
-        },
-        {
-          "level": 2,
-          "title": "35-这段CSS代码会产生什么影响？{box-sizing：border-box;}",
-          "slug": "_35-这段css代码会产生什么影响-box-sizing-border-box"
-        },
-        {
-          "level": 2,
-          "title": "36-什么是CSS预处理器？何时建议在项目中使用预处理器",
-          "slug": "_36-什么是css预处理器-何时建议在项目中使用预处理器"
-        },
-        {
-          "level": 2,
-          "title": "37-相对，固定，绝对和静态定位的元素有什么区别",
-          "slug": "_37-相对-固定-绝对和静态定位的元素有什么区别"
-        },
-        {
-          "level": 2,
-          "title": "38-什么是供应商前缀",
-          "slug": "_38-什么是供应商前缀"
-        },
-        {
-          "level": 2,
-          "title": "39-什么是文件分割，何时使用",
-          "slug": "_39-什么是文件分割-何时使用"
-        },
-        {
-          "level": 2,
-          "title": "40-CSS在后台如何运行",
-          "slug": "_40-css在后台如何运行"
-        },
-        {
-          "level": 2,
-          "title": "41-box-sizing属性?",
-          "slug": "_41-box-sizing属性"
-        },
-        {
-          "level": 2,
-          "title": "42-CSS选择器有哪些？哪些属性可以继承",
-          "slug": "_42-css选择器有哪些-哪些属性可以继承"
-        },
-        {
-          "level": 2,
-          "title": "43-用纯CSS创建一个三角形的原理是什么",
-          "slug": "_43-用纯css创建一个三角形的原理是什么"
-        },
-        {
-          "level": 2,
-          "title": "44-为什么要初始化CSS样式",
-          "slug": "_44-为什么要初始化css样式"
-        },
-        {
-          "level": 2,
-          "title": "45-为什么会出现浮动和什么时候需要清除浮动？清除浮动的方式",
-          "slug": "_45-为什么会出现浮动和什么时候需要清除浮动-清除浮动的方式"
-        },
-        {
-          "level": 2,
-          "title": "46-上下margin重合的问题",
-          "slug": "_46-上下margin重合的问题"
-        },
-        {
-          "level": 2,
-          "title": "47-设置元素浮动后，该元素的display值是多少",
-          "slug": "_47-设置元素浮动后-该元素的display值是多少"
-        },
-        {
-          "level": 2,
-          "title": "48- 移动端的布局用过媒体查询吗",
-          "slug": "_48-移动端的布局用过媒体查询吗"
-        },
-        {
-          "level": 2,
-          "title": "49-在网页中的应该使用奇数还是偶数的字体？为什么呢",
-          "slug": "_49-在网页中的应该使用奇数还是偶数的字体-为什么呢"
-        },
-        {
-          "level": 2,
-          "title": "50-margin和padding分别适合什么场景使用",
-          "slug": "_50-margin和padding分别适合什么场景使用"
-        },
-        {
-          "level": 2,
-          "title": "51-全屏滚动的原理是什么？用到了CSS的哪些属性",
-          "slug": "_51-全屏滚动的原理是什么-用到了css的哪些属性"
-        },
-        {
-          "level": 2,
-          "title": "52-你对line-height是如何理解的",
-          "slug": "_52-你对line-height是如何理解的"
-        },
-        {
-          "level": 2,
-          "title": "53-怎么让Chrome支持小于12px 的文字",
-          "slug": "_53-怎么让chrome支持小于12px-的文字"
-        },
-        {
-          "level": 2,
-          "title": "54-css3的相关动画属性",
-          "slug": "_54-css3的相关动画属性"
-        },
-        {
-          "level": 2,
-          "title": "55-css文件有几种引入方式",
-          "slug": "_55-css文件有几种引入方式"
-        }
-      ]
-    },
-    {
-      "title": "JavaScript面试题",
-      "frontmatter": {},
-      "regularPath": "/interview/interviewJs.html",
-      "relativePath": "interview/interviewJs.md",
-      "key": "v-4c02a537",
-      "path": "/interview/interviewJs.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "01-介绍JavaScript的基本数据类型",
-          "slug": "_01-介绍javascript的基本数据类型"
-        },
-        {
-          "level": 2,
-          "title": "02-说说写JavaScript的基本规范",
-          "slug": "_02-说说写javascript的基本规范"
-        },
-        {
-          "level": 2,
-          "title": "03-Ajax使用",
-          "slug": "_03-ajax使用"
-        },
-        {
-          "level": 2,
-          "title": "04-栈和堆的区别",
-          "slug": "_04-栈和堆的区别"
-        },
-        {
-          "level": 2,
-          "title": "05-谈谈this的理解",
-          "slug": "_05-谈谈this的理解"
-        },
-        {
-          "level": 2,
-          "title": "06-eval是做什么的",
-          "slug": "_06-eval是做什么的"
-        },
-        {
-          "level": 2,
-          "title": "07-什么是window对象? 什么是document对象",
-          "slug": "_07-什么是window对象-什么是document对象"
-        },
-        {
-          "level": 2,
-          "title": "08-null，undefined的区别",
-          "slug": "_08-null-undefined的区别"
-        },
-        {
-          "level": 2,
-          "title": "09-什么是闭包（closure），为什么要用它",
-          "slug": "_09-什么是闭包-closure-为什么要用它"
-        },
-        {
-          "level": 2,
-          "title": "10-new操作符具体干了什么呢",
-          "slug": "_10-new操作符具体干了什么呢"
-        },
-        {
-          "level": 2,
-          "title": "11-介绍防抖节流原理、区别以及应用，并用JavaScript进行实现",
-          "slug": "_11-介绍防抖节流原理、区别以及应用-并用javascript进行实现"
-        }
-      ]
-    },
-    {
       "title": "JavaScript笔记总结",
       "frontmatter": {},
       "regularPath": "/javascript/javascript.html",
@@ -1026,6 +808,299 @@ export const siteData = {
           "level": 3,
           "title": "逻辑运算符",
           "slug": "逻辑运算符"
+        },
+        {
+          "level": 3,
+          "title": "赋值运算符",
+          "slug": "赋值运算符"
+        },
+        {
+          "level": 3,
+          "title": "关系运算符",
+          "slug": "关系运算符"
+        },
+        {
+          "level": 3,
+          "title": "相等运算符",
+          "slug": "相等运算符"
+        },
+        {
+          "level": 3,
+          "title": "条件运算符（三元运算符）",
+          "slug": "条件运算符-三元运算符"
+        },
+        {
+          "level": 3,
+          "title": "运算符的优先级",
+          "slug": "运算符的优先级"
+        },
+        {
+          "level": 2,
+          "title": "代码块",
+          "slug": "代码块"
+        },
+        {
+          "level": 2,
+          "title": "流程控制语句",
+          "slug": "流程控制语句"
+        },
+        {
+          "level": 3,
+          "title": "条件判断语句",
+          "slug": "条件判断语句"
+        },
+        {
+          "level": 3,
+          "title": "while循环语句",
+          "slug": "while循环语句"
+        },
+        {
+          "level": 3,
+          "title": "for循环语句",
+          "slug": "for循环语句"
+        },
+        {
+          "level": 3,
+          "title": "break和continue",
+          "slug": "break和continue"
+        },
+        {
+          "level": 2,
+          "title": "对象",
+          "slug": "对象"
+        },
+        {
+          "level": 3,
+          "title": "对象的简介",
+          "slug": "对象的简介"
+        },
+        {
+          "level": 3,
+          "title": "对象的基本操作",
+          "slug": "对象的基本操作"
+        },
+        {
+          "level": 3,
+          "title": "属性名和属性值",
+          "slug": "属性名和属性值"
+        }
+      ]
+    },
+    {
+      "title": "前端笔记",
+      "frontmatter": {
+        "sidebar": "auto",
+        "title": "前端笔记"
+      },
+      "regularPath": "/home/",
+      "relativePath": "home/README.md",
+      "key": "v-353cd0ba",
+      "path": "/home/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "脚手架文件结构",
+          "slug": "脚手架文件结构-2"
+        },
+        {
+          "level": 2,
+          "title": "关于不同版本的Vue",
+          "slug": "关于不同版本的vue"
+        },
+        {
+          "level": 2,
+          "title": "vue.config.js配置文件",
+          "slug": "vue-config-js配置文件"
+        },
+        {
+          "level": 2,
+          "title": "ref属性",
+          "slug": "ref属性"
+        },
+        {
+          "level": 2,
+          "title": "props配置项",
+          "slug": "props配置项"
+        },
+        {
+          "level": 2,
+          "title": "mixin(混入)",
+          "slug": "mixin-混入"
+        },
+        {
+          "level": 2,
+          "title": "插件",
+          "slug": "插件"
+        },
+        {
+          "level": 2,
+          "title": "scoped样式",
+          "slug": "scoped样式"
+        },
+        {
+          "level": 2,
+          "title": "总结TodoList案例",
+          "slug": "总结todolist案例"
+        },
+        {
+          "level": 2,
+          "title": "webStorage",
+          "slug": "webstorage"
+        },
+        {
+          "level": 2,
+          "title": "组件的自定义事件",
+          "slug": "组件的自定义事件"
+        },
+        {
+          "level": 2,
+          "title": "全局事件总线（GlobalEventBus）",
+          "slug": "全局事件总线-globaleventbus"
+        },
+        {
+          "level": 2,
+          "title": "消息订阅与发布（pubsub）",
+          "slug": "消息订阅与发布-pubsub"
+        },
+        {
+          "level": 2,
+          "title": "nextTick",
+          "slug": "nexttick"
+        },
+        {
+          "level": 2,
+          "title": "Vue封装的过度与动画",
+          "slug": "vue封装的过度与动画"
+        },
+        {
+          "level": 2,
+          "title": "vue脚手架配置代理",
+          "slug": "vue脚手架配置代理"
+        },
+        {
+          "level": 3,
+          "title": "方法一",
+          "slug": "方法一"
+        },
+        {
+          "level": 3,
+          "title": "方法二",
+          "slug": "方法二"
+        },
+        {
+          "level": 2,
+          "title": "插槽",
+          "slug": "插槽"
+        },
+        {
+          "level": 2,
+          "title": "Vuex",
+          "slug": "vuex"
+        },
+        {
+          "level": 3,
+          "title": "1.概念",
+          "slug": "_1-概念"
+        },
+        {
+          "level": 3,
+          "title": "2.何时使用？",
+          "slug": "_2-何时使用"
+        },
+        {
+          "level": 3,
+          "title": "3.搭建vuex环境",
+          "slug": "_3-搭建vuex环境"
+        },
+        {
+          "level": 3,
+          "title": "4.基本使用",
+          "slug": "_4-基本使用"
+        },
+        {
+          "level": 3,
+          "title": "5.getters的使用",
+          "slug": "_5-getters的使用"
+        },
+        {
+          "level": 3,
+          "title": "6.四个map方法的使用",
+          "slug": "_6-四个map方法的使用"
+        },
+        {
+          "level": 3,
+          "title": "7.模块化+命名空间",
+          "slug": "_7-模块化-命名空间"
+        },
+        {
+          "level": 2,
+          "title": "路由",
+          "slug": "路由"
+        },
+        {
+          "level": 3,
+          "title": "1.基本使用",
+          "slug": "_1-基本使用"
+        },
+        {
+          "level": 3,
+          "title": "2.几个注意点",
+          "slug": "_2-几个注意点"
+        },
+        {
+          "level": 3,
+          "title": "3.多级路由（多级路由）",
+          "slug": "_3-多级路由-多级路由"
+        },
+        {
+          "level": 3,
+          "title": "4.路由的query参数",
+          "slug": "_4-路由的query参数"
+        },
+        {
+          "level": 3,
+          "title": "5.命名路由",
+          "slug": "_5-命名路由"
+        },
+        {
+          "level": 3,
+          "title": "6.路由的params参数",
+          "slug": "_6-路由的params参数"
+        },
+        {
+          "level": 3,
+          "title": "7.路由的props配置",
+          "slug": "_7-路由的props配置"
+        },
+        {
+          "level": 3,
+          "title": "8.`<router-link>`的replace属性",
+          "slug": "_8-router-link-的replace属性"
+        },
+        {
+          "level": 3,
+          "title": "9.编程式路由导航",
+          "slug": "_9-编程式路由导航"
+        },
+        {
+          "level": 3,
+          "title": "10.缓存路由组件",
+          "slug": "_10-缓存路由组件"
+        },
+        {
+          "level": 3,
+          "title": "11.两个新的生命周期钩子",
+          "slug": "_11-两个新的生命周期钩子"
+        },
+        {
+          "level": 3,
+          "title": "12.路由守卫",
+          "slug": "_12-路由守卫"
+        },
+        {
+          "level": 3,
+          "title": "13.路由器的两种工作模式",
+          "slug": "_13-路由器的两种工作模式"
         }
       ]
     }

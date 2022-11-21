@@ -7,3 +7,9 @@
 * Git
 * 移动端开发
 * Node
+* vant
+* element ui
+* ajax
+* webpack
+* webscoket
+* scss

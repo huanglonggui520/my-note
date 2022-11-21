@@ -1,6 +1,8 @@
 module.exports = {
   title:'前端笔记总结',
   description:'收录一些前端笔记',
+ 
+
   head: [
     ['meta', { "name": 'keywords', content: '前端笔记,vue笔记,javascript,javascript笔记,git,前端面试题，' }],
     ['meta', { "name": 'author', content: '贵州师范大学.黄龙归' }]

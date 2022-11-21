@@ -2,9 +2,9 @@
 home: true
 # heroImage: /hero.png
 heroText: 前端学习笔记
-tagline: 收录前端主流技术学习笔记的网站
+tagline: 记录前端主流技术学习笔记的网站
 actionText: 开始学习 →
-actionLink: /zh/guide/
+actionLink: /javascript/javascript.md
 features:
 - title: 快速导航
   details: 以侧边栏导航的方式快速帮助您定位到您需要的内容。
