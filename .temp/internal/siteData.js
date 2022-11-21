@@ -407,6 +407,196 @@ export const siteData = {
       ]
     },
     {
+      "title": "JavaScript笔记总结",
+      "frontmatter": {},
+      "regularPath": "/javascript/javascript.html",
+      "relativePath": "javascript/javascript.md",
+      "key": "v-2cc9ea91",
+      "path": "/javascript/javascript.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "JS简介",
+          "slug": "js简介"
+        },
+        {
+          "level": 2,
+          "title": "JS的helloworld及JS书写位置",
+          "slug": "js的helloworld及js书写位置"
+        },
+        {
+          "level": 2,
+          "title": "基本语法",
+          "slug": "基本语法"
+        },
+        {
+          "level": 2,
+          "title": "字面量与变量",
+          "slug": "字面量与变量"
+        },
+        {
+          "level": 2,
+          "title": "标识符",
+          "slug": "标识符"
+        },
+        {
+          "level": 2,
+          "title": "基本数据类型",
+          "slug": "基本数据类型"
+        },
+        {
+          "level": 3,
+          "title": "字符串",
+          "slug": "字符串"
+        },
+        {
+          "level": 3,
+          "title": "Number",
+          "slug": "number"
+        },
+        {
+          "level": 3,
+          "title": "布尔值",
+          "slug": "布尔值"
+        },
+        {
+          "level": 3,
+          "title": "Null",
+          "slug": "null"
+        },
+        {
+          "level": 3,
+          "title": "Undefined",
+          "slug": "undefined"
+        },
+        {
+          "level": 2,
+          "title": "强制类型转换",
+          "slug": "强制类型转换"
+        },
+        {
+          "level": 3,
+          "title": "强制类型转换-String",
+          "slug": "强制类型转换-string"
+        },
+        {
+          "level": 3,
+          "title": "强制类型转换-Number",
+          "slug": "强制类型转换-number"
+        },
+        {
+          "level": 3,
+          "title": "强制类型转换-Boolean",
+          "slug": "强制类型转换-boolean"
+        },
+        {
+          "level": 2,
+          "title": "运算符（操作符）",
+          "slug": "运算符-操作符"
+        },
+        {
+          "level": 3,
+          "title": "算术运算符",
+          "slug": "算术运算符"
+        },
+        {
+          "level": 3,
+          "title": "一元运算符",
+          "slug": "一元运算符"
+        },
+        {
+          "level": 3,
+          "title": "自增和自减",
+          "slug": "自增和自减"
+        },
+        {
+          "level": 3,
+          "title": "逻辑运算符",
+          "slug": "逻辑运算符"
+        },
+        {
+          "level": 3,
+          "title": "赋值运算符",
+          "slug": "赋值运算符"
+        },
+        {
+          "level": 3,
+          "title": "关系运算符",
+          "slug": "关系运算符"
+        },
+        {
+          "level": 3,
+          "title": "相等运算符",
+          "slug": "相等运算符"
+        },
+        {
+          "level": 3,
+          "title": "条件运算符（三元运算符）",
+          "slug": "条件运算符-三元运算符"
+        },
+        {
+          "level": 3,
+          "title": "运算符的优先级",
+          "slug": "运算符的优先级"
+        },
+        {
+          "level": 2,
+          "title": "代码块",
+          "slug": "代码块"
+        },
+        {
+          "level": 2,
+          "title": "流程控制语句",
+          "slug": "流程控制语句"
+        },
+        {
+          "level": 3,
+          "title": "条件判断语句",
+          "slug": "条件判断语句"
+        },
+        {
+          "level": 3,
+          "title": "while循环语句",
+          "slug": "while循环语句"
+        },
+        {
+          "level": 3,
+          "title": "for循环语句",
+          "slug": "for循环语句"
+        },
+        {
+          "level": 3,
+          "title": "break和continue",
+          "slug": "break和continue"
+        },
+        {
+          "level": 2,
+          "title": "对象",
+          "slug": "对象"
+        },
+        {
+          "level": 3,
+          "title": "对象的简介",
+          "slug": "对象的简介"
+        },
+        {
+          "level": 3,
+          "title": "对象的基本操作",
+          "slug": "对象的基本操作"
+        },
+        {
+          "level": 3,
+          "title": "属性名和属性值",
+          "slug": "属性名和属性值"
+        },
+        {
+          "level": 3,
+          "title": "引用数据类型",
+          "slug": "引用数据类型"
+        }
+      ]
+    },
+    {
       "title": "HTML面试题",
       "frontmatter": {},
       "regularPath": "/interview/interview.html",
@@ -698,191 +888,6 @@ export const siteData = {
           "level": 2,
           "title": "55-a元素除了用于导航外，还可以有什么作用",
           "slug": "_55-a元素除了用于导航外-还可以有什么作用"
-        }
-      ]
-    },
-    {
-      "title": "JavaScript笔记总结",
-      "frontmatter": {},
-      "regularPath": "/javascript/javascript.html",
-      "relativePath": "javascript/javascript.md",
-      "key": "v-2cc9ea91",
-      "path": "/javascript/javascript.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "JS简介",
-          "slug": "js简介"
-        },
-        {
-          "level": 2,
-          "title": "JS的helloworld及JS书写位置",
-          "slug": "js的helloworld及js书写位置"
-        },
-        {
-          "level": 2,
-          "title": "基本语法",
-          "slug": "基本语法"
-        },
-        {
-          "level": 2,
-          "title": "字面量与变量",
-          "slug": "字面量与变量"
-        },
-        {
-          "level": 2,
-          "title": "标识符",
-          "slug": "标识符"
-        },
-        {
-          "level": 2,
-          "title": "基本数据类型",
-          "slug": "基本数据类型"
-        },
-        {
-          "level": 3,
-          "title": "字符串",
-          "slug": "字符串"
-        },
-        {
-          "level": 3,
-          "title": "Number",
-          "slug": "number"
-        },
-        {
-          "level": 3,
-          "title": "布尔值",
-          "slug": "布尔值"
-        },
-        {
-          "level": 3,
-          "title": "Null",
-          "slug": "null"
-        },
-        {
-          "level": 3,
-          "title": "Undefined",
-          "slug": "undefined"
-        },
-        {
-          "level": 2,
-          "title": "强制类型转换",
-          "slug": "强制类型转换"
-        },
-        {
-          "level": 3,
-          "title": "强制类型转换-String",
-          "slug": "强制类型转换-string"
-        },
-        {
-          "level": 3,
-          "title": "强制类型转换-Number",
-          "slug": "强制类型转换-number"
-        },
-        {
-          "level": 3,
-          "title": "强制类型转换-Boolean",
-          "slug": "强制类型转换-boolean"
-        },
-        {
-          "level": 2,
-          "title": "运算符（操作符）",
-          "slug": "运算符-操作符"
-        },
-        {
-          "level": 3,
-          "title": "算术运算符",
-          "slug": "算术运算符"
-        },
-        {
-          "level": 3,
-          "title": "一元运算符",
-          "slug": "一元运算符"
-        },
-        {
-          "level": 3,
-          "title": "自增和自减",
-          "slug": "自增和自减"
-        },
-        {
-          "level": 3,
-          "title": "逻辑运算符",
-          "slug": "逻辑运算符"
-        },
-        {
-          "level": 3,
-          "title": "赋值运算符",
-          "slug": "赋值运算符"
-        },
-        {
-          "level": 3,
-          "title": "关系运算符",
-          "slug": "关系运算符"
-        },
-        {
-          "level": 3,
-          "title": "相等运算符",
-          "slug": "相等运算符"
-        },
-        {
-          "level": 3,
-          "title": "条件运算符（三元运算符）",
-          "slug": "条件运算符-三元运算符"
-        },
-        {
-          "level": 3,
-          "title": "运算符的优先级",
-          "slug": "运算符的优先级"
-        },
-        {
-          "level": 2,
-          "title": "代码块",
-          "slug": "代码块"
-        },
-        {
-          "level": 2,
-          "title": "流程控制语句",
-          "slug": "流程控制语句"
-        },
-        {
-          "level": 3,
-          "title": "条件判断语句",
-          "slug": "条件判断语句"
-        },
-        {
-          "level": 3,
-          "title": "while循环语句",
-          "slug": "while循环语句"
-        },
-        {
-          "level": 3,
-          "title": "for循环语句",
-          "slug": "for循环语句"
-        },
-        {
-          "level": 3,
-          "title": "break和continue",
-          "slug": "break和continue"
-        },
-        {
-          "level": 2,
-          "title": "对象",
-          "slug": "对象"
-        },
-        {
-          "level": 3,
-          "title": "对象的简介",
-          "slug": "对象的简介"
-        },
-        {
-          "level": 3,
-          "title": "对象的基本操作",
-          "slug": "对象的基本操作"
-        },
-        {
-          "level": 3,
-          "title": "属性名和属性值",
-          "slug": "属性名和属性值"
         }
       ]
     },

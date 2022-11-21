@@ -37,19 +37,19 @@ export const routes = [
     },
   },
   {
-    name: "v-7698a697",
-    path: "/interview/interview.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7698a697").then(next)
-    },
-  },
-  {
     name: "v-2cc9ea91",
     path: "/javascript/javascript.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-2cc9ea91").then(next)
+    },
+  },
+  {
+    name: "v-7698a697",
+    path: "/interview/interview.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7698a697").then(next)
     },
   },
   {

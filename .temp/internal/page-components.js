@@ -5,7 +5,7 @@ export default {
   "v-bbd15e92": () => import("D:\\My-Note\\my-note\\docs\\README.md"),
   "v-4c02a537": () => import("D:\\My-Note\\my-note\\docs\\interview\\interviewJs.md"),
   "v-ddf8107a": () => import("D:\\My-Note\\my-note\\docs\\interview\\interviewCss.md"),
-  "v-7698a697": () => import("D:\\My-Note\\my-note\\docs\\interview\\interview.md"),
   "v-2cc9ea91": () => import("D:\\My-Note\\my-note\\docs\\javascript\\javascript.md"),
+  "v-7698a697": () => import("D:\\My-Note\\my-note\\docs\\interview\\interview.md"),
   "v-353cd0ba": () => import("D:\\My-Note\\my-note\\docs\\home\\README.md") 
 }
