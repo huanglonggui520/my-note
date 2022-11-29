@@ -1,3 +1,7 @@
+### 访问次数
+
+![]( https://visitor-badge.glitch.me/badge?page_id=<huanglongguinote>)
+
 # JavaScript笔记总结
 ## JS简介
 Web 前端有三层：
