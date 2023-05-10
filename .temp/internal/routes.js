@@ -21,38 +21,6 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-7698a697",
-    path: "/interview/interview.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7698a697").then(next)
-    },
-  },
-  {
-    name: "v-ddf8107a",
-    path: "/interview/interviewCss.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-ddf8107a").then(next)
-    },
-  },
-  {
-    name: "v-4c02a537",
-    path: "/interview/interviewJs.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4c02a537").then(next)
-    },
-  },
-  {
-    name: "v-2cc9ea91",
-    path: "/javascript/javascript.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2cc9ea91").then(next)
-    },
-  },
-  {
     name: "v-353cd0ba",
     path: "/home/",
     component: GlobalLayout,
@@ -65,11 +33,43 @@ export const routes = [
     redirect: "/home/"
   },
   {
+    name: "v-ddf8107a",
+    path: "/interview/interviewCss.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-ddf8107a").then(next)
+    },
+  },
+  {
     name: "v-c99e51d2",
     path: "/browser/browser.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-c99e51d2").then(next)
+    },
+  },
+  {
+    name: "v-4c02a537",
+    path: "/interview/interviewJs.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4c02a537").then(next)
+    },
+  },
+  {
+    name: "v-7698a697",
+    path: "/interview/interview.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7698a697").then(next)
+    },
+  },
+  {
+    name: "v-2cc9ea91",
+    path: "/javascript/javascript.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-2cc9ea91").then(next)
     },
   },
   {
